@@ -14,7 +14,7 @@
 </div>
 <div class="edit">
   
-  <form action="{% url 'delete' object.pk %}" method="post" >
+  <form action="{% url 'deleteView' object.pk %}" method="post" >
       <h3>Excluir regristro</h3>
       {% csrf_token %} 
       <div class="edit"> 
